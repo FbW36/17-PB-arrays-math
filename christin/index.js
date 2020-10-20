@@ -19,3 +19,10 @@ console.log(
 );
 
 // *** Task // with Math.random() ==> get random item from colors array, if the item is number set it to ''
+
+// better cause always working:
+
+let colorPicker = Math.floor(Math.random() * colors.length);
+let filtered =
+  typeof colors[colorPicker] === "number" ? "" : colors[colorPicker];
+console.log(filtered);
