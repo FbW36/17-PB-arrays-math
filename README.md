@@ -1,4 +1,4 @@
-# 17-PB-arrays-math
+# 18-PB-arrays-math
 
 const colors = ["red", 9999, "green", "blue",777, "yellow", "black", "purple", "brown"]; 
 
