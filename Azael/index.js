@@ -20,6 +20,6 @@ console.log(colorsLength);
 
 let random = Math.floor(Math.random() * colorsLength);
 let randomColors = colors[random];
-let randomColorsNumber = randomColors.toString();
+let randomColorsNumber = typeof colors[random] === "number" ? "" : colors[random];
 
 console.log(randomColorsNumber);
