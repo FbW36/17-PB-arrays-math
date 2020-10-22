@@ -4,5 +4,7 @@ const colors = ["red", 9999, "green", "blue",777, "yellow", "black", "purple", "
 
 
 const colors2 = colors[Math.floor(colors.length * Math.random())];
-colors3 = `${colors2}`
-console.log("Your color is =>", colors3)
+
+
+let color3 = typeof colors2 === typeof 777 ? " " : colors2;
+console.log('Result without impostors:', color3)
